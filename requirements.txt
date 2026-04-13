@@ -1,6 +1,0 @@
-pandas
-streamlit 
-pandas 
-altair 
-seaborn 
-matplotlib.pyplot 
