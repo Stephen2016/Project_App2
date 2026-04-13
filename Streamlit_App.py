@@ -28,13 +28,7 @@ selected_states = st.sidebar.multiselect(
 start_date = st.sidebar.date_input("Start Date")
 end_date = st.sidebar.date_input("End Date")
 # Sidebar
-st.sidebar.header("Filters")
 
-# State selection
-states = st.sidebar.multiselect(
-    "Select State(s)",
-    options=sorted(df["State"].dropna().unique())
-)
 
 # Start date
 start_date = st.sidebar.date_input("Start Date", value=date(2026, 1, 1))
