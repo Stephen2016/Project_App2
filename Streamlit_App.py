@@ -25,9 +25,6 @@ selected_states = st.sidebar.multiselect(
     df["State"].unique()
 )
 
-start_date = st.sidebar.date_input("Start Date")
-end_date = st.sidebar.date_input("End Date")
-# Sidebar
 
 
 # Start date
